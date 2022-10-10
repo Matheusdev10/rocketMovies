@@ -7,4 +7,7 @@ export const Container = styled.button`
     isActive ? theme.COLORS.PINK : theme.COLORS.GRAY_200};
   border: none;
   font-weight: 400;
+  > svg {
+    background: transparent;
+  }
 `;
