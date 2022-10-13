@@ -22,7 +22,6 @@ export const Text = styled.div`
 export const Profile = styled.div`
   display: flex;
   align-items: center;
-  justify-content: center;
 
   > div {
     display: flex;

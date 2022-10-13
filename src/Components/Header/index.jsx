@@ -5,7 +5,7 @@ export function Header() {
   return (
     <Container>
       <Text>RocketMovies</Text>
-      <Input />
+      <Input placeholder="Pesquise pelo título" />
       <Profile>
         <div>
           <span>Matheus Campos</span>

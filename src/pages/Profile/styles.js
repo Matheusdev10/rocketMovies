@@ -11,17 +11,17 @@ export const Container = styled.div`
     align-items: center;
     padding: 0 124px;
 
-    svg {
-      color: ${({ theme }) => theme.COLORS.PINK};
-      font-size: 24px;
-    }
-
     a {
       display: flex;
       align-items: center;
       list-style: none;
       color: ${({ theme }) => theme.COLORS.PINK};
       gap: 10px;
+    }
+
+    svg {
+      color: ${({ theme }) => theme.COLORS.PINK};
+      font-size: 24px;
     }
   }
 `;
@@ -63,11 +63,6 @@ export const Avatar = styled.div`
 
     input {
       display: none;
-    }
-
-    svg {
-      width: 20px;
-      height: 20px;
     }
   }
 `;
