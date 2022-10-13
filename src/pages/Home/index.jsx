@@ -3,7 +3,7 @@ import { FiPlus } from 'react-icons/fi';
 import { Header } from '../../Components/Header';
 import { Stars } from '../../Components/Stars';
 import { Tag } from '../../Components/Tag';
-import { Movie } from '../../Components/Movie';
+
 export function Home() {
   return (
     <>
@@ -40,16 +40,9 @@ export function Home() {
             irá seguir para ele na instalação da NASA, que é na realidade uma
             enorme estação espacial. A partida de Cooper devasta Murphy.
           </p>
-
-          <Movie
-            data={{
-              tags: [
-                { id: '1', name: 'Ficção' },
-                { id: '2', name: 'Drama' },
-                { id: '3', name: 'Família' },
-              ],
-            }}
-          />
+          <Tag title={'Ficção'} />
+          <Tag title={'Drama'} />
+          <Tag title={'Família'} />
         </Card>
       </Container>
     </>
