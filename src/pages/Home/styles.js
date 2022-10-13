@@ -34,6 +34,14 @@ export const Card = styled.div`
   background: ${({ theme }) => theme.COLORS.BACKGROUND_PINK};
   padding: 32px;
   margin-top: 40px;
+  overflow-y: auto;
+  max-height: 170px;
+  ::-webkit-scrollbar {
+    background: ${({ theme }) => theme.COLORS.PINK};
+    width: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
 
   > h1 {
     font-weight: 700;
@@ -43,8 +51,6 @@ export const Card = styled.div`
     text-align: justify;
     font-size: 16px;
     margin-top: 15px;
-    overflow-y: auto;
-    max-height: 80px;
     margin-bottom: 15px;
   }
 `;
