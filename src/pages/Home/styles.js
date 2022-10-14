@@ -35,7 +35,7 @@ export const Card = styled.div`
   padding: 32px;
   margin-top: 40px;
   overflow-y: auto;
-  max-height: 170px;
+  max-height: 200px;
   ::-webkit-scrollbar {
     background: ${({ theme }) => theme.COLORS.PINK};
     width: 10px;
