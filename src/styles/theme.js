@@ -16,5 +16,7 @@ export default {
 
     PINK: '#FF859B',
     BORDER: '#3E3B47',
+
+    RED: '#FF002E',
   },
 };

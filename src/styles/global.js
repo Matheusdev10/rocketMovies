@@ -25,7 +25,7 @@ a{
     text-decoration: none;
 }
 
-button, a, svg{
+button, a, svg, img{
     cursor: pointer;
     transition: filter 0.2s;
 

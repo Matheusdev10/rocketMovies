@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-
+import { Link } from 'react-router-dom';
 export const Container = styled.div`
   max-width: 1137px;
   left: 123px;
@@ -14,7 +14,7 @@ export const Nav = styled.div`
   margin-top: 50px;
 `;
 
-export const NewMovie = styled.button`
+export const NewMovie = styled(Link)`
   width: 207px;
   height: 48px;
   border-radius: 8px;
